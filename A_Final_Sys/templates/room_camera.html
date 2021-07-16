@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>房间摄像头</title>
+</head>
+
+<style>
+.img_class img{
+ width:100%;
+ height:auto;
+}
+</style>
+
+<body>
+<!--  <h1 align="center" style="font-size:50px">房间摄像头</h1>-->
+  <div class="img_class">
+      <img id="video" src="{{ url_for('video_viewer') }}">
+  </div>
+</body>
+</html>
